@@ -286,7 +286,7 @@ void gpio_isr_handler(void *arg)
 void app_main()
 {
 
-    ESP_LOGI(MY_TAG, "start app main");
+    ESP_LOGI(MY_TAG, "start app main, test git");
     factory_restore_init();
 
     lightbulb_init();
