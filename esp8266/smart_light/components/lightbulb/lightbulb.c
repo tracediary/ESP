@@ -341,7 +341,7 @@ void lightbulb_start(void)
  */
 int lightbulb_set_powerstate(bool value)
 {
-    ESP_LOGI(TAG, "lightbulb_set_powerstate : %s my log to set makefile88888888888888888888888+", value == true ? "true" : "false");
+    ESP_LOGI(TAG, "lightbulb_set_powerstate : %s my log to set git ignore", value == true ? "true" : "false");
 
     if (true == value)
     {
