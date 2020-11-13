@@ -361,7 +361,7 @@ int lightbulb_set_powerstate(bool value)
  */
 int lightbulb_set_brightness(int value)
 {
-    ESP_LOGI(TAG, "lightbulb_set_brightness : %d,this is my log0000000000000000000000000000000000  ", value);
+    ESP_LOGI(TAG, "lightbulb_set_brightness : %d,this is111111111111111111", value);
     if (value > 100 || value < 1)
     {
         ESP_LOGE(TAG, "lightbulb_set_brightness value is error");
