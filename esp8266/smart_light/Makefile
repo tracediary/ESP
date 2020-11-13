@@ -6,7 +6,6 @@ PROJECT_NAME := smart_light
 
 #EXTRA_COMPONENT_DIRS := $(realpath ../../..)
 #EXTRA_COMPONENT_DIRS := $(realpath ../../esp-ali-smartliving/)
-#EXTRA_COMPONENT_DIRS := $(realpath $ALI_PATH)
 EXTRA_COMPONENT_DIRS := $(ALI_PATH)
 
 ifneq (,$(wildcard $(IDF_PATH)/components/esp8266/*))
