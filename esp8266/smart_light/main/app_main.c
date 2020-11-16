@@ -271,8 +271,6 @@ void gpio_isr_handler(void *arg)
 
     BaseType_t result, xHighPTW;
 
-    
-
     result = xEventGroupSetBitsFromISR(EventGroupHandler, EVENTBIT,&xHighPTW);
 
     if(result!= pdFAIL)
